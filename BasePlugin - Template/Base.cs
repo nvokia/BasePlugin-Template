@@ -15,6 +15,10 @@ namespace BasePlugin
         {
             Logger.LogInfo("BasePlugin loaded");
         }
+        public void Start()
+        {
+            Logger.LogInfo("BasePlugin started");
+        }
         public void Update()
         {
             if (Input.GetKeyDown(KeyCode.F1))
@@ -22,7 +26,7 @@ namespace BasePlugin
                 Logger.LogInfo("F1 pressed");
             }
         }
-        public void OnGui()
+        public void OnGUI()
         {
             GUI.Label(new Rect(10, 10, 100, 20), "Hello World!");
         }
