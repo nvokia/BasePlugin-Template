@@ -8,7 +8,7 @@ namespace BasePlugin
     public class BasePlugin : BaseUnityPlugin
     {
         public const string pluginGuid = "com.github.SZAAAAAA.BasePlugin";
-        public const string pluginName = "Tragic Full Menu";
+        public const string pluginName = "Base Plugin";
         public const string pluginVersion = "1.0.0";
 
         public void Awake()
